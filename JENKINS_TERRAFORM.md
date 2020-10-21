@@ -21,13 +21,13 @@ And your base home page will look like below.:
 
 Now lets, create a New Job here for our automation work and name this project as **Automatepipeline** job.
 
-![Automatepipeline Job](https://github.com/krupeshxebia/Xebia-Interns-2020/blob/shubham-bansal/IMAGES/JENKINS%20JOB%20CREATION%20ZOOM.png "Automatepipeline Job")
+![Automatepipeline Job](https://github.com/SHUBHAMBANSAL001/MIDSEM_SPCM/blob/main/IMAGES/JENKINS%20JOB%20CREATION%20ZOOM.png "Automatepipeline Job")
 
 Now as we have named this job, We have to configure it to access the code from git repo. \
 (For this thing to perform you will need to install Git plugin inside Jenkins) \
 After installing the plugin we connect the git repo to this job by configuring it under the **Source Code Management** section as shown below:
 
-![Git Repo Connected](https://github.com/krupeshxebia/Xebia-Interns-2020/blob/shubham-bansal/IMAGES/GIT%20REPO%20CONNECTED.png "Automatepipeline Job")
+![Git Repo Connected](https://github.com/SHUBHAMBANSAL001/MIDSEM_SPCM/blob/main/IMAGES/GIT%20REPO%20CONNECTED.png "Automatepipeline Job")
 
 **Note**: Remember to put **.git** at the end of your repo URL because then its meaning will change from a URL to a git Repo
 
@@ -109,7 +109,7 @@ Go to google platform console and signup. You will get a free tier initially
 If you dont know much about google cloud platform and wish to see an easy tutorial then you can access [this link](https://github.com/krupeshxebia/Xebia-Interns-2020/blob/shubham-bansal/GCP_TUTORIAL.md)
 Now create a new project in it and name it as you wish. and it will look like below:
 
-![Google CLoud Console](https://github.com/krupeshxebia/Xebia-Interns-2020/blob/shubham-bansal/IMAGES/GCP%20CONSOLE.png "Google CLoud Console")
+![Google CLoud Console](https://github.com/SHUBHAMBANSAL001/MIDSEM_SPCM/blob/main/IMAGES/GCP%20CONSOLE.png "Google CLoud Console")
 
 Now you may see the project id in the screenshot above which you have to put in the terraform.tfvars file because what values were defined in that script were according to my project. \
 Now lets generate the key for this project, Go to navigation menu on left and go to **IAM and Admin** area and click on **Service Accounts** inside it. Here we will create a new service account. and name it as you wish maybe like Sa-terraform.  After naming you will have to assign some **Role** to this account. For now you give it two roles 
@@ -179,7 +179,7 @@ terraform apply -auto-approve
 
 First command is just to show the contents of web page in your job console output so that you can confirm that what will be delivered on server in the end. And rest commands if you know how to use terraform are for provisioning the infrastructure.
 
-![Jenkins Build Step](https://github.com/krupeshxebia/Xebia-Interns-2020/blob/shubham-bansal/IMAGES/JENKINS%20BUILD%20STEP.png "Jenkins Build Step")
+![Jenkins Build Step](https://github.com/SHUBHAMBANSAL001/MIDSEM_SPCM/blob/main/IMAGES/JENKINS%20BUILD%20STEP.png "Jenkins Build Step")
 
 Now just hit the save and apply button and come to dashboard of jenkins. Go to your job and press **Build now**.
 
