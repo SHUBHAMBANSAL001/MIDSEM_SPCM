@@ -8,7 +8,7 @@ So lets start step by step
 First, Upload any simple static HTML page file you want to host on the server, it need not to be over complex because our main aim is to try to build **DevOps Pipeline**. 
 I uploaded a simple file on my git repo. If you want you can refer to the same repo too for your own use: - [Git Repo Link](https://github.com/SHUBHAMBANSAL001/TRIAL_REPO)
 
-![Trial Repo Link](https://github.com/krupeshxebia/Xebia-Interns-2020/blob/shubham-bansal/IMAGES/GIT%20REPO.png "Trial Repo")
+ 
 
 ## Jenkins Job Creation
 Now Open your jenkins on your local machine in the directory where your **.war** file of jenkins is placed, using the command: 
@@ -17,7 +17,7 @@ java -jar jenkins.war
 ```
 And your base home page will look like below.:
 
-![Jenkins Dashboard](https://github.com/krupeshxebia/Xebia-Interns-2020/blob/shubham-bansal/IMAGES/JENKINS%20DASHBOARD.png "Jenkins Dashboard")
+![Jenkins Dashboard](https://github.com/SHUBHAMBANSAL001/MIDSEM_SPCM/blob/main/IMAGES/JENKINS%20DASHBOARD.png "Jenkins Dashboard")
 
 Now lets, create a New Job here for our automation work and name this project as **Automatepipeline** job.
 
